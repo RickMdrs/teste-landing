@@ -1,0 +1,74 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo */
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* Seção principal */
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+/* Botão CTA */
+.cta-btn {
+  display: inline-block;
+  background: #ff9800;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+.cta-btn:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+    padding: 15px;
+  }
+}
